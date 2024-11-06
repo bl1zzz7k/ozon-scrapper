@@ -23,7 +23,7 @@ import ru.ozon.api.service.OzonStockTemplateService;
 public class OzonScrapperApp {
 
   public static void main(String[] args) {
-    log.info("Ozon scrapper has been started with args: {}", Arrays.toString(args));
+    log.info("Ozon scrapper has been started with args:  {}", Arrays.toString(args));
     try {
       com.github.rvesse.airline.Cli<Runnable> cli =
           new com.github.rvesse.airline.Cli<>(OzonScrapperApp.class);
